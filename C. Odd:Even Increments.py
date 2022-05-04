@@ -1,4 +1,4 @@
-# trying to shorten the code but slower
+# shortened code but slower 46ms
 n = int(input())
 for i in range(n):
     l = int(input())
@@ -15,7 +15,7 @@ for i in range(n):
     else:
         print("NO")
 
-# ugly solution but fastest in online python submissions
+# ugly solution but fastest in online python submissions 30ms
 n = int(input())
 for i in range(n):
     l = int(input())
