@@ -3,7 +3,7 @@ n = int(input())
 for i in range(n):
     l = int(input())
     m = list(map(int, input().split()))
-    p, g= False, False
+    p = False
     for i in range(0, l-2):
         if (m[i] %2 == m[i+2] %2) :
             p = True
