@@ -10,7 +10,7 @@ for i in range(n):
         else:
             p = False
             break
-    if p == True or (l == 0 or l == 1 or l == 2):
+    if p == True or (l<=2):
         print("YES")
     else:
         print("NO")
@@ -35,7 +35,7 @@ for i in range(n):
         else:
             g =False
             break
-    if l == 0 or l == 1 or l == 2:
+    if l<=2:
         print("YES")
     else:
         if p == g == True:
