@@ -4,7 +4,7 @@ for i in range(n):
     m = list(map(int, input().split()))
     c, j= 0, 0
     while j < k-1:
-        if k >= m[k-1]: 
+        if m[j] >= m[j+1] or m[j]==0 and k>0: 
             c = -1
             break
         if m[j] >= m[j+1]:
